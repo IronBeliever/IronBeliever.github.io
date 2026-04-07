@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-👋🏻Hi, I'm Ge Yuan. I'm a second year Ph.D student from the [Department of Computer Science and Technology](http://www.cse.neu.edu.cn) at [Northeastern University, China](https://www.neu.edu.cn). I work at [Natural Language Processing Lab](http://team.neu.edu.cn/NEUNLPLab/zh_CN/index.htm) under the supervision of Prof. [Tong Xiao](https://www.nlplab.com/members/xiaotong) and Prof. [Jingbo Zhu](https://www.nlplab.com/members/zhujingbo.html).
+11👋🏻Hi, I'm Ge Yuan. I'm a second year Ph.D student from the [Department of Computer Science and Technology](http://www.cse.neu.edu.cn) at [Northeastern University, China](https://www.neu.edu.cn). I work at [Natural Language Processing Lab](http://team.neu.edu.cn/NEUNLPLab/zh_CN/index.htm) under the supervision of Prof. [Tong Xiao](https://www.nlplab.com/members/xiaotong) and Prof. [Jingbo Zhu](https://www.nlplab.com/members/zhujingbo.html).
 
 My research interest includes neural machine translation and computer vision. I have published more than 10 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>70+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
