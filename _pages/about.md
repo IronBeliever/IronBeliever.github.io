@@ -45,9 +45,12 @@ My research interest includes speech language process, multi-reward RL, and cont
 
 **Yuan Ge**, Yilun Liu, Chi Hu, Weibin Meng, Shimin Tao, Xiaofeng Zhao, Hongxia Ma, Li Zhang, Boxing Chen, Hao Yang, Bei Li, Tong Xiao, Jingbo Zhu
 
-Cited by _Google DeepMind_, _Meta GenAI_, _Baichuan Technical Report_, _CMU_, and other organizations; \
-Email Invitation for Internships at _Tongyi Lab_; \
-Introduced in _Liu Cong’s NLP_ WeChat Official Account(刘聪NLP); \
+Cited by _Google DeepMind_, _Meta GenAI_, _Baichuan Technical Report_, _CMU_, and other organizations; 
+
+Email Invitation for Internships at _Tongyi Lab_; 
+
+Introduced in _Liu Cong’s NLP_ WeChat Official Account(刘聪NLP); 
+
 Introduced in the _YSSNLP 2024 Tutorial_;
 
 [**Project**](https://github.com/IronBeliever/CaR) <strong><span class='show_paper_citations' data='7_4WS_kAAAAJ:d1gkVwhDpl0C'></span></strong>
@@ -63,7 +66,7 @@ Introduced in the _YSSNLP 2024 Tutorial_;
 
 **Yuan Ge**, Haishu Zhao, Aokai Hao, Junxiang Zhang, Bei Li, Xiaoqian Liu, Chenglong Wang, Jianjin Wang, Bingsen Zhou, Bingyu Liu, Jingbo Zhu, Zhengtao Yu, Tong Xiao
 
-**SAC rating: 10**: **_Top 5%_** of accepted papers, seminal paper. Recommended for an _oral presentation_. \
+**SAC rating: 10**: **_Top 5%_** of accepted papers, seminal paper. Recommended for an _oral presentation_. \\
 Average Overall Assessment: **4.00** (Min: 3.5, Max: **4.5**); Meta: 3.5
 
 [**Project**](https://github.com/965002973/Synthesis_SER) 
