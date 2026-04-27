@@ -39,7 +39,7 @@ My research interest includes speech language process, multi-reward RL, and cont
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024</div><img src='images/car.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 (Main)</div><img src='images/car.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Clustering and ranking: Diversity-preserved instruction selection through expert-aligned quality estimation](https://aclanthology.org/2024.emnlp-main.28.pdf)
@@ -57,14 +57,15 @@ Introduced in the _YSSNLP 2024 Tutorial_;
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/speech_gap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 (Oral)</div><img src='images/speech_gap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [On the Emotion Understanding of Synthesized Speech](https://arxiv.org/pdf/2603.16483)
 
 **Yuan Ge**, Haishu Zhao, Aokai Hao, Junxiang Zhang, Bei Li, Xiaoqian Liu, Chenglong Wang, Jianjin Wang, Bingsen Zhou, Bingyu Liu, Jingbo Zhu, Zhengtao Yu, Tong Xiao
 
-**SAC rating: 10**: **_Top 5%_** of accepted papers, seminal paper. Recommended for an _oral presentation_. \\
+Considered as an **Award** at ACL \\
+**SAC rating: 10**: **_Top 5%_** of accepted papers, seminal paper. \\
 Average Overall Assessment: **4.00** (Min: 3.5, Max: **4.5**); Meta: 3.5
 
 [**Project**](https://github.com/965002973/Synthesis_SER) 
