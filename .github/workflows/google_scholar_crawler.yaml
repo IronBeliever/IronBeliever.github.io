@@ -1,33 +1,53 @@
 name: Get Citation Data
 
 on:
-  page_build:
+  workflow_dispatch:
   schedule:
     - cron: '0 8 * * *'
+
+concurrency:
+  group: get-citation-data
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+
     steps:
     - uses: actions/checkout@v2
-    - name: Install Reqs
+
+    - name: Install Python deps
       run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
+        cd google_scholar_crawler
+        python3 -m pip install -r requirements.txt
+
+    - name: Install Playwright browser
       run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
+        cd google_scholar_crawler
         python3 -m playwright install --with-deps chromium
-        python3 main.py
-        python3 semantic_scholar_page_crawler.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
+
+    - name: Fetch Google Scholar
+      run: |
+        cd google_scholar_crawler
+        timeout 180 python3 -u main.py
       env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+
+    - name: Fetch Semantic Scholar
+      run: |
+        cd google_scholar_crawler
+        timeout 180 python3 -u semantic_scholar_page_crawler.py
+      env:
         SEMANTIC_SCHOLAR_AUTHOR_URL: ${{ secrets.SEMANTIC_SCHOLAR_AUTHOR_URL }}
 
+    - name: Push JSON files
+      run: |
+        cd google_scholar_crawler/results
+        git init
+        git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        git add *.json
+        git commit -m "Updated Citation Data" || echo "No changes to commit"
+        git push "${remote_repo}" HEAD:google-scholar-stats --force
