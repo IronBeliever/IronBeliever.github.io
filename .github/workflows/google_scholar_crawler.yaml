@@ -30,11 +30,6 @@ jobs:
         cd google_scholar_crawler
         python3 -m pip install -r requirements.txt
 
-    - name: Install Playwright browser
-      run: |
-        cd google_scholar_crawler
-        python3 -m playwright install --with-deps chromium
-
     - name: Fetch Google Scholar
       continue-on-error: true
       run: |
@@ -45,43 +40,22 @@ jobs:
       env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
 
-    - name: Fetch Semantic Scholar
+    - name: Fetch Semantic Scholar API
       run: |
         cd google_scholar_crawler
-        timeout 180 python3 -u semantic_scholar_page_crawler.py
+        timeout 60 python3 -u semantic_scholar_crawler.py
       env:
-        SEMANTIC_SCHOLAR_AUTHOR_URL: ${{ secrets.SEMANTIC_SCHOLAR_AUTHOR_URL }}
-
-    - name: Show Semantic Scholar debug files
-      if: always()
-      run: |
-        cd google_scholar_crawler/results || exit 0
-        echo "=== results files ==="
-        ls -la
-        echo "=== ss_debug_body.txt (first 120 lines) ==="
-        sed -n '1,120p' ss_debug_body.txt || true
-        echo "=== ss_debug_page.html (first 120 lines) ==="
-        sed -n '1,120p' ss_debug_page.html || true
-
-    - name: Upload Semantic Scholar debug files
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: semantic-scholar-debug
-        path: |
-          google_scholar_crawler/results/ss_debug_body.txt
-          google_scholar_crawler/results/ss_debug_page.html
-        if-no-files-found: ignore
+        SEMANTIC_SCHOLAR_AUTHOR_ID: ${{ secrets.SEMANTIC_SCHOLAR_AUTHOR_ID }}
+        SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
 
     - name: Push JSON files
       if: always()
       run: |
         mkdir -p google_scholar_crawler/results
         cd google_scholar_crawler/results
-        ls -la
         git init
         git config --local user.name "${GITHUB_ACTOR}"
-        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com}"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add .
         git commit -m "Updated Citation Data" || echo "No changes to commit"
