@@ -35,6 +35,7 @@ jobs:
         python3 -m playwright install --with-deps chromium
 
     - name: Fetch Google Scholar
+      continue-on-error: true
       run: |
         cd google_scholar_crawler
         timeout 180 python3 -u main.py
