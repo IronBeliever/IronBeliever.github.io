@@ -17,8 +17,9 @@ jobs:
       run: |
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
+        python3 -m playwright install --with-deps chromium
         python3 main.py
-        python3 semantic_scholar_crawler.py
+        python3 semantic_scholar_page_crawler.py
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
@@ -26,7 +27,7 @@ jobs:
         git add *.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
+      env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-        SEMANTIC_SCHOLAR_AUTHOR_ID: ${{ secrets.SEMANTIC_SCHOLAR_AUTHOR_ID }}
-        SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+        SEMANTIC_SCHOLAR_AUTHOR_URL: ${{ secrets.SEMANTIC_SCHOLAR_AUTHOR_URL }}
+
