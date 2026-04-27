@@ -52,7 +52,29 @@ jobs:
       env:
         SEMANTIC_SCHOLAR_AUTHOR_URL: ${{ secrets.SEMANTIC_SCHOLAR_AUTHOR_URL }}
 
+    - name: Show Semantic Scholar debug files
+      if: always()
+      run: |
+        cd google_scholar_crawler/results || exit 0
+        echo "=== results files ==="
+        ls -la
+        echo "=== ss_debug_body.txt (first 120 lines) ==="
+        sed -n '1,120p' ss_debug_body.txt || true
+        echo "=== ss_debug_page.html (first 120 lines) ==="
+        sed -n '1,120p' ss_debug_page.html || true
+
+    - name: Upload Semantic Scholar debug files
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: semantic-scholar-debug
+        path: |
+          google_scholar_crawler/results/ss_debug_body.txt
+          google_scholar_crawler/results/ss_debug_page.html
+        if-no-files-found: ignore
+
     - name: Push JSON files
+      if: always()
       run: |
         mkdir -p google_scholar_crawler/results
         cd google_scholar_crawler/results
