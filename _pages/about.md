@@ -13,14 +13,14 @@ redirect_from:
 {% else %}
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign gs_url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 {% assign ss_url = gsDataBaseUrl | append: "google-scholar-stats/ss_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
 
 👋🏻Hi, I'm Ge Yuan. I'm a second year Ph.D student from the [Department of Computer Science and Technology](http://www.cse.neu.edu.cn) at [Northeastern University, China](https://www.neu.edu.cn). I work at [Natural Language Processing Lab](http://team.neu.edu.cn/NEUNLPLab/zh_CN/index.htm) under the supervision of Prof. [Tong Xiao](https://www.nlplab.com/members/xiaotong) and Prof. [Jingbo Zhu](https://www.nlplab.com/members/zhujingbo.html).
 
-My research interest includes speech language process, multi-reward RL, and continue language modeling. I have published more than 10 papers at the top international AI conferences (ACL, EMNLP, AAAI, etc.) with total google scholar <a href='https://scholar.google.com/citations?user=7_4WS_kAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>, and semantic scholar <a href='https://www.semanticscholar.org/author/Yuan-Ge/2288399464'><img src="https://img.shields.io/endpoint?url={{ ss_url | url_encode }}&labelColor=f6f6f6&color=52b788&style=flat&label=citations"></a>).
+My research interest includes speech language process, multi-reward RL, and continue language modeling. I have published more than 10 papers at the top international AI conferences (ACL, EMNLP, AAAI, etc.) with total google scholar <a href='https://scholar.google.com/citations?user=7_4WS_kAAAAJ'><img src="https://img.shields.io/endpoint?url={{ gs_url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>, and semantic scholar <a href='https://www.semanticscholar.org/author/Yuan-Ge/2288399464'><img src="https://img.shields.io/endpoint?url={{ ss_url | url_encode }}&labelColor=f6f6f6&color=52b788&style=flat&label=citations"></a>).
 
 
 # 🥳 News
