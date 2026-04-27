@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - '.github/workflows/google_scholar_crawler.yaml'
+      - 'google_scholar_crawler/**'
       - '_pages/about.md'
       - '_config.yml'
   schedule:
@@ -22,7 +23,7 @@ jobs:
     timeout-minutes: 20
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Install Python deps
       run: |
@@ -38,7 +39,9 @@ jobs:
       continue-on-error: true
       run: |
         cd google_scholar_crawler
-        timeout 180 python3 -u main.py
+        if ! timeout 180 python3 -u main.py; then
+          echo "Google Scholar fetch failed or timed out, skipping."
+        fi
       env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
 
@@ -51,11 +54,13 @@ jobs:
 
     - name: Push JSON files
       run: |
+        mkdir -p google_scholar_crawler/results
         cd google_scholar_crawler/results
+        ls -la
         git init
         git config --local user.name "${GITHUB_ACTOR}"
         git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
+        git add .
         git commit -m "Updated Citation Data" || echo "No changes to commit"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
