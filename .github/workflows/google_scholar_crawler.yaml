@@ -48,6 +48,14 @@ jobs:
         SEMANTIC_SCHOLAR_AUTHOR_ID: ${{ secrets.SEMANTIC_SCHOLAR_AUTHOR_ID }}
         SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
 
+    - name: Ensure Google Scholar fallback file exists
+      if: always()
+      run: |
+        mkdir -p google_scholar_crawler/results
+        if [ ! -f google_scholar_crawler/results/gs_data_shieldsio.json ]; then
+          echo '{"schemaVersion": 1, "label": "citations", "message": "80"}' > google_scholar_crawler/results/gs_data_shieldsio.json
+        fi
+    
     - name: Push JSON files
       if: always()
       run: |
