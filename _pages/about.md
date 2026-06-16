@@ -24,7 +24,7 @@ My research interest includes speech language process, multi-reward RL, and cont
 
 
 # 🥳 News
-- *2026.04*: Open to new opportunities: Seeking an internship👋🏻.
+- *2026.06*: Started my internship at Qwen-omni Group.
 - *2026.04*: &nbsp;🎉 Two papers (1 **_Top 5% of accepted papers_** by Main Conference and 1 Fingdings) accepted by [ACL 2026](https://2026.aclweb.org).
 - *2026.02*: &nbsp;🎉 Four papers accepted by [ICASSP 2026](https://2026.ieeeicassp.org).
 - *2025.11*: &nbsp;🎉 Two papers accepted by [AAAI 2026](https://aaai.org/conference/aaai/aaai-26/).
