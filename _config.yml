@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ge Yuan (葛源)"
   avatar           : "images/gy.png"
-  bio              : "Northeastern University"
-  location         : "Shenyang, China"
+  bio              : "Northeastern University & Qwen Group"
+  location         : "Hangzhou & Shenyang, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=7_4WS_kAAAAJ"
