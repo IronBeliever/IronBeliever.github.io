@@ -24,7 +24,8 @@ My research interest includes speech language process, multi-reward RL, and cont
 
 
 # 🥳 News
-- *2026.06*: Started my internship at Qwen-omni Group.
+- *2026.07*: 🏆 ["On the Emotion Understanding of Synthesized Speech"](https://aclanthology.org/2026.acl-long.372.pdf) was honored with **SAC Highlight Award** @ [ACL 2026](https://2026.aclweb.org)\\
+- *2026.06*: Started my internship at Qwen-omni multilingual Group.
 - *2026.04*: &nbsp;🎉 Two papers (1 **_Top 5% of accepted papers_** by Main Conference and 1 Fingdings) accepted by [ACL 2026](https://2026.aclweb.org).
 - *2026.02*: &nbsp;🎉 Four papers accepted by [ICASSP 2026](https://2026.ieeeicassp.org).
 - *2025.11*: &nbsp;🎉 Two papers accepted by [AAAI 2026](https://aaai.org/conference/aaai/aaai-26/).
@@ -42,6 +43,24 @@ My research interest includes speech language process, multi-reward RL, and cont
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 (Main)</div><img src='images/car.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+
+[On the Emotion Understanding of Synthesized Speech](https://arxiv.org/pdf/2603.16483)
+
+**Yuan Ge**, Haishu Zhao, Aokai Hao, Junxiang Zhang, Bei Li, Xiaoqian Liu, Chenglong Wang, Jianjin Wang, Bingsen Zhou, Bingyu Liu, Jingbo Zhu, Zhengtao Yu, Tong Xiao
+
+🏆 SAC Highlight Award \\
+**SAC rating: 10**: **_Top 5%_** of accepted papers, seminal paper. \\
+Average Overall Assessment: **4.00** (Min: 3.5, Max: **4.5**); Meta: 3.5
+
+[**Project**](https://github.com/965002973/Synthesis_SER) 
+- Synthetic audio is becoming increasingly common, yet audio understanding tasks have largely overlooked it. It is widely believed that _emotion understanding models learn fundamental representations that transfer to synthesized speech_, making emotion understanding results _a plausible reward or evaluation metric_ for assessing emotional expressiveness in speech synthesis. In this work, we find that **current SER models can not generalize to synthesized speech**, largely because **speech token prediction during synthesis induces a representation mismatch** between synthesized and human speech. Moreover, generative Speech Language Models (SLMs) tend to _infer emotion from textual semantics while ignoring paralinguistic cues_. Overall, our findings suggest that **existing SER models often exploit non-robust shortcuts rather than capturing fundamental features**, and paralinguistic understanding in SLMs remains challenging.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/sagelm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+
 [Clustering and ranking: Diversity-preserved instruction selection through expert-aligned quality estimation](https://aclanthology.org/2024.emnlp-main.28.pdf)
 
 **Yuan Ge**, Yilun Liu, Chi Hu, Weibin Meng, Shimin Tao, Xiaofeng Zhao, Hongxia Ma, Li Zhang, Boxing Chen, Hao Yang, Bei Li, Tong Xiao, Jingbo Zhu
@@ -57,24 +76,9 @@ Introduced in the _YSSNLP 2024 Tutorial_;
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 (Oral)</div><img src='images/speech_gap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 (SAC Highlight Award)</div><img src='images/speech_gap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[On the Emotion Understanding of Synthesized Speech](https://arxiv.org/pdf/2603.16483)
-
-**Yuan Ge**, Haishu Zhao, Aokai Hao, Junxiang Zhang, Bei Li, Xiaoqian Liu, Chenglong Wang, Jianjin Wang, Bingsen Zhou, Bingyu Liu, Jingbo Zhu, Zhengtao Yu, Tong Xiao
-
-Considered as an **Award** at ACL \\
-**SAC rating: 10**: **_Top 5%_** of accepted papers, seminal paper. \\
-Average Overall Assessment: **4.00** (Min: 3.5, Max: **4.5**); Meta: 3.5
-
-[**Project**](https://github.com/965002973/Synthesis_SER) 
-- Synthetic audio is becoming increasingly common, yet audio understanding tasks have largely overlooked it. It is widely believed that _emotion understanding models learn fundamental representations that transfer to synthesized speech_, making emotion understanding results _a plausible reward or evaluation metric_ for assessing emotional expressiveness in speech synthesis. In this work, we find that **current SER models can not generalize to synthesized speech**, largely because **speech token prediction during synthesis induces a representation mismatch** between synthesized and human speech. Moreover, generative Speech Language Models (SLMs) tend to _infer emotion from textual semantics while ignoring paralinguistic cues_. Overall, our findings suggest that **existing SER models often exploit non-robust shortcuts rather than capturing fundamental features**, and paralinguistic understanding in SLMs remains challenging.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/sagelm.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
 [SageLM: A Multi-aspect and Explainable Large Language Model for Speech Judgement](https://ojs.aaai.org/index.php/AAAI/article/view/40338)
 
