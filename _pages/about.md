@@ -43,7 +43,7 @@ My research interest includes speech language process, voice-centric interaction
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 (Oral)</div><img src='images/speech_gap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[On the Emotion Understanding of Synthesized Speech](https://arxiv.org/pdf/2603.16483)
+[On the Emotion Understanding of Synthesized Speech](https://aclanthology.org/2026.acl-long.372.pdf)
 
 **Yuan Ge**, Haishu Zhao, Aokai Hao, Junxiang Zhang, Bei Li, Xiaoqian Liu, Chenglong Wang, Jianjin Wang, Bingsen Zhou, Bingyu Liu, Jingbo Zhu, Zhengtao Yu, Tong Xiao
 
