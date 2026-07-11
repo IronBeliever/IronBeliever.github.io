@@ -20,11 +20,11 @@ redirect_from:
 
 👋🏻Hi, I'm Ge Yuan. I'm a second year Ph.D student from the [Department of Computer Science and Technology](http://www.cse.neu.edu.cn) at [Northeastern University, China](https://www.neu.edu.cn). I work at [Natural Language Processing Lab](http://team.neu.edu.cn/NEUNLPLab/zh_CN/index.htm) under the supervision of Prof. [Tong Xiao](https://www.nlplab.com/members/xiaotong) and Prof. [Jingbo Zhu](https://www.nlplab.com/members/zhujingbo.html).
 
-My research interest includes speech language process, multi-reward RL, and continue language modeling. I have published more than 10 papers at the top international AI conferences (ACL, EMNLP, AAAI, etc.) with total google scholar <a href='https://scholar.google.com/citations?user=7_4WS_kAAAAJ'><img src="https://img.shields.io/endpoint?url={{ gs_url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> and semantic scholar <a href='https://www.semanticscholar.org/author/Yuan-Ge/2288399464'><img src="https://img.shields.io/endpoint?url={{ ss_url | url_encode }}&labelColor=f6f6f6&color=52b788&style=flat&label=citations"></a>).
+My research interest includes speech language process, voice-centric interaction, and language modeling. I have published more than 10 papers at the top international AI conferences (ACL, EMNLP, AAAI, etc.) with total google scholar <a href='https://scholar.google.com/citations?user=7_4WS_kAAAAJ'><img src="https://img.shields.io/endpoint?url={{ gs_url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> and semantic scholar <a href='https://www.semanticscholar.org/author/Yuan-Ge/2288399464'><img src="https://img.shields.io/endpoint?url={{ ss_url | url_encode }}&labelColor=f6f6f6&color=52b788&style=flat&label=citations"></a>).
 
 
 # 🥳 News
-- *2026.07*: 🏆 ["On the Emotion Understanding of Synthesized Speech"](https://aclanthology.org/2026.acl-long.372.pdf) was honored with **SAC Highlight Award** @ [ACL 2026](https://2026.aclweb.org)\\
+- *2026.07*: 🏆 ["On the Emotion Understanding of Synthesized Speech"](https://aclanthology.org/2026.acl-long.372.pdf) was honored with **SAC Highlight Award** @ [ACL 2026](https://2026.aclweb.org).
 - *2026.06*: Started my internship at Qwen-omni multilingual Group.
 - *2026.04*: &nbsp;🎉 Two papers (1 **_Top 5% of accepted papers_** by Main Conference and 1 Fingdings) accepted by [ACL 2026](https://2026.aclweb.org).
 - *2026.02*: &nbsp;🎉 Four papers accepted by [ICASSP 2026](https://2026.ieeeicassp.org).
@@ -40,9 +40,8 @@ My research interest includes speech language process, multi-reward RL, and cont
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 (Main)</div><img src='images/car.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 (Oral)</div><img src='images/speech_gap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 
 [On the Emotion Understanding of Synthesized Speech](https://arxiv.org/pdf/2603.16483)
 
@@ -57,10 +56,10 @@ Average Overall Assessment: **4.00** (Min: 3.5, Max: **4.5**); Meta: 3.5
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/sagelm.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 (Main)</div><img src='images/car.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
-
+  
 [Clustering and ranking: Diversity-preserved instruction selection through expert-aligned quality estimation](https://aclanthology.org/2024.emnlp-main.28.pdf)
 
 **Yuan Ge**, Yilun Liu, Chi Hu, Weibin Meng, Shimin Tao, Xiaofeng Zhao, Hongxia Ma, Li Zhang, Boxing Chen, Hao Yang, Bei Li, Tong Xiao, Jingbo Zhu
@@ -76,9 +75,8 @@ Introduced in the _YSSNLP 2024 Tutorial_;
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 (SAC Highlight Award)</div><img src='images/speech_gap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/sagelm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 
 [SageLM: A Multi-aspect and Explainable Large Language Model for Speech Judgement](https://ojs.aaai.org/index.php/AAAI/article/view/40338)
 
@@ -101,6 +99,7 @@ Introduced in the _YSSNLP 2024 Tutorial_;
 
 
 # 🎖 Honors and Awards
+- *2026.07*: 🏆 ["On the Emotion Understanding of Synthesized Speech"](https://aclanthology.org/2026.acl-long.372.pdf) was honored with **SAC Highlight Award** @ [ACL 2026](https://2026.aclweb.org).
 - *2024.10* Huawei Smart Base Scholarship(华为智能基座奖学金).
 - *2022.06* Selected for the “Northeastern University–Huawei Digital and Networking Elite Class”(东北大学—华为数通菁英班) at the School of Future Technologies(未来技术学院). 
 
@@ -110,4 +109,5 @@ Introduced in the _YSSNLP 2024 Tutorial_;
 - *2018.09 - 2022.06*, Undergraduate, Northeastern University. 
 
 # 💻 Internships
+- *2026.06 - until now, Research Intern, _Alibaba Qwen Group_(Hangzhou, China).
 - *2023.08 - 2024.08*, Research Intern & LLM Application Engineer, _Huawei_(Beijing, China).
