@@ -99,15 +99,15 @@ Introduced in the _YSSNLP 2024 Tutorial_;
 
 
 # 🎖 Honors and Awards
-- *2026.07*: 🏆 ["On the Emotion Understanding of Synthesized Speech"](https://aclanthology.org/2026.acl-long.372.pdf) was honored with **SAC Highlight Award** @ [ACL 2026](https://2026.aclweb.org).
+- *2026.07* 🏆 ["On the Emotion Understanding of Synthesized Speech"](https://aclanthology.org/2026.acl-long.372.pdf) was honored with **SAC Highlight Award** @ [ACL 2026](https://2026.aclweb.org).
 - *2024.10* Huawei Smart Base Scholarship(华为智能基座奖学金).
 - *2022.06* Selected for the “Northeastern University–Huawei Digital and Networking Elite Class”(东北大学—华为数通菁英班) at the School of Future Technologies(未来技术学院). 
 
 # 📖 Educations
-- *2024.09 - 2026.04 (now)*, Ph.D, Northeastern University, under the supervision of Prof. [Tong Xiao](https://www.nlplab.com/members/xiaotong) and Prof. [Jingbo Zhu](https://www.nlplab.com/members/zhujingbo.html).
+- *2024.09 until now*, Ph.D, Northeastern University, under the supervision of Prof. [Tong Xiao](https://www.nlplab.com/members/xiaotong) and Prof. [Jingbo Zhu](https://www.nlplab.com/members/zhujingbo.html).
 - *2022.09 - 2024.06*, Master, Northeastern University, under the supervision of Prof. [Tong Xiao](https://www.nlplab.com/members/xiaotong) and Prof. [Jingbo Zhu](https://www.nlplab.com/members/zhujingbo.html). 
 - *2018.09 - 2022.06*, Undergraduate, Northeastern University. 
 
 # 💻 Internships
-- *2026.06 - until now, Research Intern, _Alibaba Qwen Group_(Hangzhou, China).
+- *2026.06 until now*, Research Intern, _Alibaba Qwen Group_(Hangzhou, China).
 - *2023.08 - 2024.08*, Research Intern & LLM Application Engineer, _Huawei_(Beijing, China).
