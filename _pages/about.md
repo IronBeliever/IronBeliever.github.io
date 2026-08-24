@@ -24,6 +24,7 @@ My research interest includes speech language process, voice-centric interaction
 
 
 # 🥳 News
+- *2026.08*: &nbsp;🎉 Two papers (1 Main Conference and 1 System Demonstration) accepted by [EMNLP 2026](https://2026.emnlp.org).
 - *2026.07*: 🏆 ["On the Emotion Understanding of Synthesized Speech"](https://aclanthology.org/2026.acl-long.372.pdf) was honored with **SAC Highlight Award** @ [ACL 2026](https://2026.aclweb.org).
 - *2026.06*: Started my internship at Qwen-omni multilingual Group.
 - *2026.04*: &nbsp;🎉 Two papers (1 **_Top 5% of accepted papers_** by Main Conference and 1 Fingdings) accepted by [ACL 2026](https://2026.aclweb.org).
@@ -87,6 +88,7 @@ Introduced in the _YSSNLP 2024 Tutorial_;
 </div>
 </div>
 
+- **ACL 2026**, [Bypassing Neural Evaluations for Fast Audio Editing via Adaptive Trajectory Extrapolation](https://aclanthology.org/2026.findings-acl.820.pdf) \\ Xiaoqian Liu, Zhengkun Ge, Jianjin Wang, Haoran Zhang, Yuan Ge, Kaiyan Chang, Chen Xu, Tong Xiao, Zhengtao Yu, Linfeng Zhang, JingBo Zhu
 - **ICASSP 2026**, [MTP-S2UT: Enhancing Speech-to-Speech Translation Quality with Multi-token Prediction](https://arxiv.org/pdf/2510.10003?) \\ Jianjin Wang, Runsong Zhao, Xiaoqian Liu, **Yuan Ge**, Ziqiang Xu, Tong Xiao, Shengxiang Gao, Zhengtao Yu, Jingbo Zhu
 - **ICASSP 2026**, [StyleBench: Evaluating Speech Language Models on Conversational Speaking Style Control](https://arxiv.org/pdf/2603.07599) \\ Haishu Zhao, Aokai Hao, **Yuan Ge**, Zhenqiang Hong, Tong Xiao, Jingbo Zhu
 - **ICASSP 2026**, [Attention2Probability: Attention-Driven Terminology Probability Estimation for Robust Speech-to-Text System](https://arxiv.org/pdf/2508.18701) \\ Yanfan Du, Jun Zhang, Bin Wang, Jin Qiu, Lu Huang, **Yuan Ge**, Xiaoqian Liu, Tong Xiao, Jingbo Zhu
