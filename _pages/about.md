@@ -32,7 +32,7 @@ My research interest includes speech language process, voice-centric interaction
 - *2025.11*: &nbsp;🎉 Two papers accepted by [AAAI 2026](https://aaai.org/conference/aaai/aaai-26/).
 - *2025.08*: &nbsp;🎉 One paper (Main Conference) accepted by [EMNLP 2025](https://2025.emnlp.org).
 - *2025.06*: &nbsp;🎉 One paper (Oral) accepted by [NLPCC 2025](http://tcci.ccf.org.cn/conference/2025/).
-- *2026.02*: &nbsp;🎉 One paper accepted by [ICASSP 2025](https://2025.ieeeicassp.org).
+- *2025.02*: &nbsp;🎉 One paper accepted by [ICASSP 2025](https://2025.ieeeicassp.org).
 - *2024.08*: &nbsp;🎉 One paper (Main Conference) accepted by [EMNLP 2024](https://2024.emnlp.org).
 - *2024.06*: Finished my internship at Huawei.
 - *2024.02*: &nbsp;🎉 One paper accepted by [LREC-COLING 2024](https://lrec-coling-2024.org).
