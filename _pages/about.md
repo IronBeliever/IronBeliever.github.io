@@ -24,9 +24,10 @@ My research interest includes speech language process, voice-centric interaction
 
 
 # 🥳 News
+- *2026.09*: &nbsp;🎉 Contributor of **Qwen3.8-omni**: [Technical Report](https://arxiv.org/pdf/2609.25611) [Blog](https://mp.weixin.qq.com/s/JA-fKZLgoXpQl9G9xzmdog).
 - *2026.08*: &nbsp;🎉 Two papers (1 Main Conference and 1 System Demonstration) accepted by [EMNLP 2026](https://2026.emnlp.org).
 - *2026.07*: 🏆 ["On the Emotion Understanding of Synthesized Speech"](https://aclanthology.org/2026.acl-long.372.pdf) was honored with **SAC Highlight Award** @ [ACL 2026](https://2026.aclweb.org).
-- *2026.06*: Started my internship at Qwen multilingual Group.
+- *2026.06*: Started my internship at Qwen Group.
 - *2026.04*: &nbsp;🎉 Two papers (1 **_Top 5% of accepted papers_** by Main Conference and 1 Fingdings) accepted by [ACL 2026](https://2026.aclweb.org).
 - *2026.02*: &nbsp;🎉 Four papers accepted by [ICASSP 2026](https://2026.ieeeicassp.org).
 - *2025.11*: &nbsp;🎉 Two papers accepted by [AAAI 2026](https://aaai.org/conference/aaai/aaai-26/).
